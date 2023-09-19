@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['ec2-34-204-165-212.compute-1.amazonaws.com',  '0.0.0.0', 'loca
 
 
 # Application definition
-
+# another isssue
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
