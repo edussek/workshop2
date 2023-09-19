@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-(j-#aqq@vs$3l#0(031z4_h(_*pa&ye#dt&x69_@(&a6(=+fpg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ec2-34-204-165-212.compute-1.amazonaws.com,  '0.0.0.0', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['ec2-34-204-165-212.compute-1.amazonaws.com',  '0.0.0.0', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -129,7 +129,7 @@ USE_TZ = True
 if DEBUG:
     STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 else:
-    STATIC_ROOT = [os.path.join(BASE_DIR, "static"]
+    STATIC_ROOT = [os.path.join(BASE_DIR, "static")]
 
 STATIC_URL = '/static/'
 
